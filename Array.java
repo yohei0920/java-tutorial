@@ -18,5 +18,26 @@ class Array {
 
     arr_2[1] = "tanaka";
     System.out.println(arr_2[1]);
+
+    System.out.println("========");
+    // two dimensional array
+
+    String[][] d_arr;
+    d_arr = new String[1][3];
+
+    d_arr[0][0] = "hiro";
+    d_arr[0][1] = "takeshi";
+    d_arr[0][2] = "yoshi";
+
+    System.out.println(d_arr[0][0]);
+    System.out.println(d_arr[0][1]);
+    System.out.println(d_arr[0][2]);
+
+    String[][] d_arr_2 = {{"sato", "suzuki"}, {"takahashi", "tanaka"}};
+    
+    System.out.println(d_arr_2[0][0]);
+    System.out.println(d_arr_2[0][1]);
+    System.out.println(d_arr_2[1][0]);
+    System.out.println(d_arr_2[1][1]);
   }
 }
