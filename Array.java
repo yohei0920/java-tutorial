@@ -11,7 +11,7 @@ class Array {
     System.out.println(arr[1]);
     System.out.println(arr[2]);
 
-    String[] arr_2 = { "sato", "suzuki", "takahashi"};
+    String[] arr_2 = { "sato", "suzuki", "takahashi" };
     System.out.println(arr_2[0]);
     System.out.println(arr_2[1]);
     System.out.println(arr_2[2]);
