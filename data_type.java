@@ -21,5 +21,16 @@ class DataType {
 
     System.out.println(var07);
     System.out.println(var08);
+
+    int var_a = 10;
+    int var_b = 1;
+    boolean var_bool_true;
+    boolean var_bool_false;
+
+    var_bool_true = var_a > var_b;
+    var_bool_false = var_a < var_b;
+
+    System.out.println(var_bool_true);
+    System.out.println(var_bool_false);
   }
 }
