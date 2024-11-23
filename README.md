@@ -10,3 +10,12 @@ https://www.youtube.com/watch?v=kjxetd5ylzI&t=908s
 * 配列作成時の`String[] arr_2 = { "sato", "suzuki", "takahashi" };`について
   * `[]`は配列の型を指定するもの、`{}`は要素の中身を作るもの
   * Rubyでは`arr = ["sato", "suzuki", "takahashi"]`で上記をまとめてやっているイメージ(静的型付けと動的型付けの違い)
+
+## Studentの実行方法
+```bash
+// Student.javaをコンパイル
+javac Student.java
+
+// コンパイル後のStudent.classを実行
+java Student
+```
