@@ -9,5 +9,11 @@ class DataType {
     System.out.println(var02);
     System.out.println(var03);
     System.out.println(var04);
+
+    double var05 = 1.23456789;
+    float var06 = 1.234F;
+
+    System.out.println(var05);
+    System.out.println(var06);
   }
 }
