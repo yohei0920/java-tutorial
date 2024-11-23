@@ -15,5 +15,11 @@ class DataType {
 
     System.out.println(var05);
     System.out.println(var06);
+
+    char var07 = 'c';
+    String var08 = "hello, world";
+
+    System.out.println(var07);
+    System.out.println(var08);
   }
 }
